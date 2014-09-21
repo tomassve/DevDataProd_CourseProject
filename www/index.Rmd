@@ -1,0 +1,48 @@
+---
+title: "Supporting documentation"
+author: "tomassve"
+date: "Sunday, September 21, 2014"
+output: html_document
+---
+
+### Introduction
+You can with this app interactively test how well different set of predictors can estimate the fuel consumption in miles per gallon (*mpg*).
+
+The app uses the *mtcars* data set in R.
+
+### Predictors
+To the left you will find the set a predictors and you can choose any set of size 0 or more.
+1. cyl
+2. disp
+3. hp
+4. drat
+5. wt
+6. qsec
+7. vs
+8. am
+9. gear
+
+### Tabsets
+There are 5 tabs in this app. They implements a work flow to get a predictor of *mpg*. Start with the *Data set* and work the tabs from left to right. 
+
+#### Data set
+The data was extracted from the 1974 *Motor Trend US* magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models) .
+
+Get acquainted with the data set.
+
+#### Pairs plot
+Explore correlation between predictors and mpg from the matrix of scatter plots .
+
+#### Prediction plot
+Here you can see the predicted value, the *mpg* value from the data set along with the prediction error. All are plotted on the same scale. 
+
+Test different set of predictors until you are satisfied.
+
+#### Model summary
+You will find information on the regression model for your selection on predictors.
+
+#### Diagnostic plots
+You can investigate the presence of outliers, the normality of the residual and the leverage of the different data points. 
+
+These are useful for evaluating your predictor.
+
